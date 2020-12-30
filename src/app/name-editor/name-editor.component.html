@@ -1,0 +1,16 @@
+<p>name-editor works!</p>
+
+<label>
+    Name: 
+    <input tpe="text" [formControl]="name">
+
+    
+</label>
+
+<p>
+    Value: {{ name.value }}
+</p>
+
+<p>
+    <button (click)="updateName()">Update Name</button>
+</p>
