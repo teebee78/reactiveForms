@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
 import { NameEditorComponent } from './name-editor/name-editor.component';
 import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
+import { FirstModuleModule } from './first-module/first-module.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProfileEditorComponent } from './profile-editor/profile-editor.componen
     ReactiveFormsModule,
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FirstModuleModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
